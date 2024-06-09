@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04 - Visual Testing</name>
+   <name>API01 - Copy (30)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c1846446-cbe7-41a2-bf02-37964a6dfc3a</testCaseGuid>
+   <testCaseGuid>5fb51786-8a90-461c-a3d0-2e2fbb83c5bc</testCaseGuid>
 </TestCaseEntity>
