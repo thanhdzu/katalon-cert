@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1</name>
+   <name>1 - Copy</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a14232bd-a6a2-4cdf-b548-95eb7108758a</testCaseGuid>
+   <testCaseGuid>bc50b384-e200-462f-89b8-937a8d57aa77</testCaseGuid>
 </TestCaseEntity>
