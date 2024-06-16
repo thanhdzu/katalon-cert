@@ -21,3 +21,5 @@ response = WS.sendRequest(findTestObject('API/Get user'))
 
 WS.verifyElementPropertyValue(response, 'data.id', 1)
 
+assert true
+

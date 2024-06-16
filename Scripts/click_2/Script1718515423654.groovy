@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/Get user'))
+WebUI.openBrowser('')
 
-WS.verifyElementPropertyValue(response, 'data.id', 1)
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-assert true
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Login'), 'Login')
+
+WebUI.closeBrowser()
 
