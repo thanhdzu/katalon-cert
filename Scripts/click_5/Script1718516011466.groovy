@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 30)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
