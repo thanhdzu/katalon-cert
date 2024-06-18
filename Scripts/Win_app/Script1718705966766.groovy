@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/Get user'))
+Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', 'Untitled - Notepad')
 
-WS.verifyElementPropertyValue(response, 'data.id', 1)
-
-assert reponse.data.id
+Windows.closeApplication()
 
